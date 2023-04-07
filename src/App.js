@@ -1,5 +1,6 @@
+import Expenses from "./components/expenses/Expenses";
 
-import Expenses from "./components/Expenses";
+
 
 
 
@@ -31,6 +32,7 @@ function App() {
       ]
     
 return(
+  
 
   <Expenses items={expenses}/>
 );
