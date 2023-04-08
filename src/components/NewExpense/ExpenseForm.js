@@ -60,7 +60,7 @@ import "./ExpenseForm.css"
             date:new Date(enteredDate)
         };
 
-        props.onSaveExpenseData();
+        props.onSaveExpenseData(expenseData);
 
         setEnteredTitle('');
         setEnteredAmount('');
